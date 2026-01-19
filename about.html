@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - BHU</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Oswald:wght@400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="bhu-page">
+
+    <header id="main-header">
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="logo.jpg" alt="Ever Green Architex Logo" class="logo-img">
+                </a>
+            </div>
+
+            <nav class="desktop-nav">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact</a>
+                <div class="header-actions">
+                    <a href="booking.html" class="btn-pill">Let's Talk</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="bhu-wrapper">
+        <!-- Hero Section -->
+        <section class="bhu-hero">
+            <div class="hero-top-label">ABOUT US</div>
+            <div class="hero-grid">
+                <div class="hero-text-col">
+                    <h1 class="bhu-heading-hero">WE ARE<br>BHU.</h1>
+                    <p class="bhu-subtext">Precision Engineering. Timeless Design.<br>Based in Trivandrum, Kerala.</p>
+                </div>
+                <div class="hero-visual-col reveal-left">
+                    <!-- Background image set in CSS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Bento Grid Section -->
+        <section class="bhu-bento">
+            <!-- Row 1: Vision -->
+            <div class="bento-row-1">
+                <div class="bento-card vision-card reveal">
+                    <h2 class="bhu-heading-lg">WHO WE ARE?</h2>
+                    <p class="bhu-text">Bhu is a team of Architects & Engineers who are pioneers in the Construction
+                        Industry with 20+ years of experience with a dream of making world class design & project
+                        management services available to all.</p>
+                    <p class="bhu-text mt-auto">We are your partners from the design stage till handing over.</p>
+                </div>
+                <div class="bento-card image-card reveal-zoom">
+                    <!-- Image background set in CSS -->
+                </div>
+            </div>
+
+            <!-- Row 2: Stats (Maroon Strip) -->
+            <!-- Row 2: What We Do -->
+            <div class="stats-strip reveal" style="display: block; padding: 40px;">
+                <h2 class="bhu-heading-lg" style="color: white; margin-bottom: 30px;">WHAT WE DO?</h2>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px;">
+                    <div>
+                        <h3 style="color: rgba(255,255,255,0.7); margin-bottom: 20px;">DESIGN & SUPERVISION SERVICES
+                        </h3>
+                        <ul style="color: white; list-style: none; padding: 0; line-height: 2;">
+                            <li>• Architectural Design</li>
+                            <li>• Interior Design</li>
+                            <li>• Pre-Engineered Building design</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul style="color: white; list-style: none; padding: 0; line-height: 2; margin-top: 45px;">
+                            <li>• Structural Design</li>
+                            <li>• Project Management</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+
+    <!-- Footer CTA -->
+    <footer>
+        <div class="footer-video-container">
+            <video autoplay muted loop playsinline class="footer-video">
+                <source src="asset/bgved2.mp4" type="video/mp4">
+            </video>
+            <div class="footer-overlay"></div>
+        </div>
+        <div class="footer-content-wrapper">
+            <div class="footer-cta reveal">
+                <h2>Let's Build<br>Your Vision</h2>
+                <div class="footer-links">
+                    <a href="about.html">About</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <a href="booking.html" class="btn-pill btn-footer">Get in Touch</a>
+            </div>
+            <div class="footer-brand reveal">
+                <h1>BHU SPACES</h1>
+            </div>
+            <div class="footer-bottom">
+                <span>BHU Engineering & Design Consultancy LLP</span>
+                <span>+91 94978 80021 | bhu.spaces@gmail.com</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- GSAP Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
